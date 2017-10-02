@@ -1,0 +1,16 @@
+TODO:
+
+# Gestione torna indietro nelle schermate dell'app
+
+# Gestione dei ToastMessage bisogna visualizaare le inforamazioni inm modo da visualizzare i messaggi solo
+    nelle schermate giuste
+
+# pagina di introduzione al livello deve essere strutturata graficamente
+
+# GOOGLE GAMES API
+
+# refactor project packages
+
+# Gestione dei timer BONUS + config numero bonus level
+
+# isConcatenateSolutions(...) exception read TODO note

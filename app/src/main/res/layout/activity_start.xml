@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:patternview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBalck"
+    tools:context=".activities.StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorYellow"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:id="@+id/modeText"
+        android:text="MODE"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_alignBottom="@+id/spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/modeText"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:onClick="buttonClickFunction"
+        android:layout_marginBottom="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/intersection"
+        android:layout_toEndOf="@+id/intersection"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp" />
+
+    <CheckBox
+        android:id="@+id/intersection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorYellow"
+        android:textSize="15dp"
+        android:text="No intersection solutions"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="37dp" />
+
+    <CheckBox
+        android:id="@+id/concatenate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Concatenate solutions"
+        android:textColor="@color/colorYellow"
+        android:layout_marginTop="16dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/intersection"
+        android:layout_alignLeft="@+id/intersection"
+        android:layout_alignStart="@+id/intersection" />
+
+    <CheckBox
+        android:id="@+id/timeModeBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/colorYellow"
+        android:text="Timer"
+        android:layout_below="@+id/concatenate"
+        android:layout_alignLeft="@+id/concatenate"
+        android:layout_alignStart="@+id/concatenate"
+        android:layout_marginTop="17dp" />
+
+
+    <CheckBox
+        android:id="@+id/bombMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorYellow"
+        android:textSize="15dp"
+        android:text="Bomb mode"
+        android:layout_above="@+id/startButton"
+        android:layout_alignLeft="@+id/timeModeBox"
+        android:layout_alignStart="@+id/timeModeBox" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorYellow"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:text="START"
+        android:layout_below="@+id/modeText"
+        android:layout_alignLeft="@+id/modeText"
+        android:layout_alignStart="@+id/modeText"
+        android:layout_marginTop="33dp" />
+
+    <Spinner
+        android:id="@+id/spinnerFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toRightOf="@+id/modeText"
+        android:layout_toEndOf="@+id/modeText"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorYellow"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:text="END"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="25dp" />
+
+    <Spinner
+        android:id="@+id/spinnerTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/spinnerFrom"
+        android:layout_alignStart="@+id/spinnerFrom" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorYellow"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:text="NOT"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="36dp" />
+
+    <Spinner
+        android:id="@+id/spinnerNot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/spinnerTo"
+        android:layout_alignStart="@+id/spinnerTo" />
+
+    <EditText
+        android:id="@+id/levelNumber"
+        android:digits="0123456789."
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/startButton"
+        android:layout_alignLeft="@+id/bombMode"
+        android:layout_alignStart="@+id/bombMode"
+        android:layout_alignRight="@+id/bombMode"
+        android:layout_alignEnd="@+id/bombMode" />
+
+
+</RelativeLayout>

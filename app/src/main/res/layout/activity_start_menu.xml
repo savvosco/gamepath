@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBalck"
+    tools:context=".activities.StartMenuActivity">
+
+    <Button
+        android:id="@+id/freegame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FREE GAME"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="100dp"
+        android:layout_marginTop="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/freegame"
+        android:layout_alignStart="@+id/freegame"
+        android:layout_below="@+id/freegame"
+        android:layout_marginTop="57dp"
+        android:text="NEW GAME" />
+
+
+    <Button
+        android:id="@+id/option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OPTION GAME"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/level"
+        android:layout_alignStart="@+id/level"
+        android:layout_marginBottom="71dp" />
+
+    <Button
+        android:id="@+id/restoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTORE GAME"
+        android:layout_below="@+id/level"
+        android:layout_alignRight="@+id/option"
+        android:layout_alignEnd="@+id/option"
+        android:layout_marginTop="70dp" />
+
+</RelativeLayout>

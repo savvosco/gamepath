@@ -1,0 +1,439 @@
+<levels>
+    <level>
+        <id>0</id>
+        <name>NO LEVEL GAME</name>
+        <description>No constraints, no level games, no time
+        </description>
+        <set>0</set>
+        <timer>0</timer>
+        <score-target>20000</score-target>
+        <solution-target>100</solution-target>
+        <lifes>99</lifes>
+    </level>
+    <level>
+        <id>1</id>
+        <name>Level 1</name>
+        <description>Trova 5 percorsi in un minuto unendo tutti i punti della griglia!</description>
+        <set>0</set>
+        <bonus>3</bonus>
+        <mode>intersection</mode>
+        <score-target>500</score-target>
+        <solution-target>5</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>2</id>
+        <name>Level 2</name>
+        <description>Trova 10 percorsi in un minuto unendo tutti i punti della griglia!
+        </description>
+        <set>0</set>
+        <bonus>3</bonus>
+        <mode>intersection</mode>
+        <score-target>1000</score-target>
+        <solution-target>10</solution-target>
+        <timer>91</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>3</id>
+        <name>Level 3</name>
+        <description> Trova 5 soluzioni in un minuto partendo dal punto 1
+        </description>
+        <set>0</set>
+        <bonus>3</bonus>
+        <score-target>500</score-target>
+        <solution-target>5</solution-target>
+        <start>0</start>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>4</id>
+        <name>Level 4</name>
+        <description>Trova 5 soluzioni in un minuto partendo dal punto 1 e terminando al punto 16!
+        </description>
+        <set>0</set>
+        <start>0</start>
+        <end>15</end>
+        <score-target>500</score-target>
+        <solution-target>5</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>5</id>
+        <name>Level 5</name>
+        <description>Bomb mode! trova una soluzione cercando di evitare la bomba nascosta! La lettera D in basso a sn ti indica il numero di linee di distanza dalla bomba!
+        </description>
+        <set>0</set>
+        <mode>bomb</mode>
+        <score-target>500</score-target>
+        <solution-target>1</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>6</id>
+        <name>Level 6</name>
+        <description>Trova 5 soluzioni in un minuto unendo tutti i punti della griglia, senza andare in diagonale!
+        </description>
+        <set>3</set>
+        <score-target>500</score-target>
+        <solution-target>5</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>7</id>
+        <name>Level 7</name>
+        <description>Trova 5 soluzioni in un minuto partendo dal punto 1 senza andare in diagonale </description>
+        <set>3</set>
+        <start>0</start>
+        <score-target>1000</score-target>
+        <solution-target>5</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>8</id>
+        <name>Level 8</name>
+        <description>Trova 5 soluzioni  in un minuto partendo  dal punto 1 e terminando al punto  16 senza andare in diagonale!</description>
+        <set>3</set>
+        <start>0</start>
+        <end>15</end>
+        <score-target>1000</score-target>
+        <solution-target>5</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>9</id>
+        <name>Level 9</name>
+        <description>Bomb mode! trova una soluzione cercando di evitare la bomba nascosta! La lettera D in basso a sn ti indica il numero di linee di distanza dalla bomba!
+        </description>
+        <set>0</set>
+        <mode>bomb</mode>
+        <score-target>500</score-target>
+        <solution-target>1</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>10</id>
+        <name>Level 10</name>
+        <description>Trova 5 soluzioni in un minuto senza passare dal punto 5</description>
+        <set>0</set>
+        <not>4</not>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>11</id>
+        <name>Level 11</name>
+        <description>Trova 10 soluzioni in un minuto senza passare dal punto 8</description>
+        <set>0</set>
+        <not>7</not>
+        <solution-target>10</solution-target>
+        <score-target>10000</score-target>
+        <timer>91</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>12</id>
+        <name>Level 12</name>
+        <description>Bomb mode! trova una soluzione cercando di evitare la bomba nascosta! La lettera D in basso a sn ti indica il numero di linee di distanza dalla bomba!
+        </description>
+        <set>0</set>
+        <mode>bomb</mode>
+        <score-target>500</score-target>
+        <solution-target>1</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>13</id>
+        <name>Level 13</name>
+        <description>Trova 10 soluzioni in un minuto partendo  dal punto 1 senza passare dal punto 8
+        </description>
+        <set>0</set>
+        <start>0</start>
+        <not>7</not>
+        <solution-target>10</solution-target>
+        <score-target>10000</score-target>
+        <timer>91</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>14</id>
+        <name>Level 14</name>
+        <description>Trova 5 soluzioni in un minuto partendo dal punto 1 e finendo al punto 16, senza passare dal punto 7!</description>
+        <start>0</start>
+        <end>15</end>
+        <not>6</not>
+        <set>0</set>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>15</id>
+        <name>Level 15</name>
+        <description>Bomb mode! trova una soluzione cercando di evitare la bomba nascosta! La lettera D in basso a sn ti indica il numero di linee di distanza dalla bomba!
+        </description>
+        <set>0</set>
+        <mode>bomb</mode>
+        <score-target>500</score-target>
+        <solution-target>1</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>16</id>
+        <name>Level 16</name>
+        <description>Trova 5 soluzioni in un minuto senza passare dal punto 8 e senza andare in diagonale</description>
+        <set>3</set>
+        <not>7</not>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>17</id>
+        <name>Level 17</name>
+        <description>Trova 5 soluzioni in un minuto partendo dal punto 1 senza passare dal punto 6 e senza andare in diagonale</description>
+        <set>3</set>
+        <not>5</not>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>18</id>
+        <name>Level 18</name>
+        <description>Trova 5 soluzioni in un minuto partendo dal punto 1, terminando al punto 16 senza passare dal punto 10 e senza andare in diagonale</description>
+        <not>9</not>
+        <start>0</start>
+        <end>15</end>
+        <set>3</set>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>19</id>
+        <name>Level 19</name>
+        <description>Bomb mode! trova una soluzione cercando di evitare la bomba nascosta! La lettera D in basso a sn ti indica il numero di linee di distanza dalla bomba!
+        </description>
+        <set>0</set>
+        <mode>bomb</mode>
+        <score-target>500</score-target>
+        <solution-target>1</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>20</id>
+        <name>Level 20</name>
+        <description>Trova 5 soluzioni partendo in un minuto dal punto 2 senza passare dal punto 4</description>
+        <start>1</start>
+        <not>3</not>
+        <set>0</set>
+        <solution-target>5</solution-target>
+        <score-target>1000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>21</id>
+        <name>Level 21</name>
+        <description>Trova 5 soluzioni  in un minuto partendo dal punto 2 senza passare dal punto 4, senza andare in diagonale!</description>
+        <start>1</start>
+        <not>3</not>
+        <set>3</set>
+        <solution-target>5</solution-target>
+        <score-target>1000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>22</id>
+        <name>Level 22</name>
+        <description>Bomb mode! trova una soluzione cercando di evitare la bomba nascosta! La lettera D in basso a sn ti indica il numero di linee di distanza dalla bomba!
+        </description>
+        <set>0</set>
+        <mode>bomb</mode>
+        <score-target>500</score-target>
+        <solution-target>1</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>23</id>
+        <name>Level 23</name>
+        <description>Trova 5 soluzioni  in un minuto senza passare dal punto 6. Ricorda, il punto di inizio della soluzione successiva deve essere il punto finale della soluzione precedente!</description>
+        <not>5</not>
+        <set>0</set>
+        MODE : CONCATENATE SOLUTIONS NON SO COME SI SCRIVE CUZZIOLINOOOOOOOO
+        <solution-target>5</solution-target>
+        <score-target>1000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>24</id>
+        <name>Level 24</name>
+        <description>Trova 5 soluzioni  in un minuto senza passare dal punto 6, senza andare in diagonale. Ricorda, il punto di inizio della soluzione successiva deve essere il punto finale della soluzione precedente!</description>
+        <not>5</not>
+        <set>3</set>
+        MODE : CONCATENATE SOLUTIONS NON SO COME SI SCRIVE CUZZIOLINOOOOOOOO
+        <solution-target>5</solution-target>
+        <score-target>1000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>25</id>
+        <name>Level 25</name>
+        <description>Bomb mode! trova tre soluzioni cercando di evitare la bomba nascosta! La lettera D in basso a sn ti indica il numero di linee di distanza dalla bomba!
+        </description>
+        <set>0</set>
+        <mode>bomb</mode>
+        <score-target>500</score-target>
+        <solution-target>3</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>26</id>
+        <name>Level 26</name>
+        <description>Trova 5 soluzioni in un minuto partendo dal punto 15, terminando al punto 10 senza passare dal punto 2 </description>
+        <not>1</not>
+        <start>14</start>
+        <end>9</end>
+        <set>0</set>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>27</id>
+        <name>Level 27</name>
+        <description>Trova 5 soluzioni in un minuto partendo dal punto 5, terminando al punto 14 senza passare dal punto 1 </description>
+        <not>0</not>
+        <start>4</start>
+        <end>13</end>
+        <set>0</set>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>28</id>
+        <name>Level 28</name>
+        <description>Bomb mode! trova quattro soluzioni cercando di evitare la bomba nascosta! La lettera D in basso a sn ti indica il numero di linee di distanza dalla bomba!
+        </description>
+        <set>0</set>
+        <mode>bomb</mode>
+        <score-target>500</score-target>
+        <solution-target>4</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>29</id>
+        <name>Level 29</name>
+        <description>Trova 5 soluzioni in un minuto partendo dal punto 8, terminando al punto 1 senza passare dal punto 9 </description>
+        <not>8</not>
+        <start>7</start>
+        <end>0</end>
+        <set>0</set>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>30</id>
+        <name>Level 30</name>
+        <description>Trova 5 soluzioni in un minuto partendo dal punto 5, terminando al punto 2 senza passare dal punto 7 </description>
+        <not>6</not>
+        <start>4</start>
+        <end>1</end>
+        <set>0</set>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>31</id>
+        <name>Level 31</name>
+        <description>Bomb mode! trova cinque soluzioni cercando di evitare la bomba nascosta! La lettera D in basso a sn ti indica il numero di linee di distanza dalla bomba!
+        </description>
+        <set>0</set>
+        <mode>bomb</mode>
+        <score-target>500</score-target>
+        <solution-target>5</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>32</id>
+        <name>Level 32</name>
+        <description>Trova 5 soluzioni in un minuto partendo dal punto 5, terminando al punto 8 senza passare dal punto 1 </description>
+        <not>0</not>
+        <start>4</start>
+        <end>7</end>
+        <set>0</set>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>33</id>
+        <name>Level 33</name>
+        <description>Trova 5 soluzioni in un minuto partendo dal punto 9, terminando al punto 6 senza passare dal punto 5 </description>
+        <not>4</not>
+        <start>8</start>
+        <end>5</end>
+        <set>0</set>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>34</id>
+        <name>Level 34</name>
+        <description>Bomb mode! trova cinque soluzioni partendo dal punto 1 cercando di evitare la bomba nascosta! La lettera D in basso a sn ti indica il numero di linee di distanza dalla bomba!
+        </description>
+        <set>0</set>
+        <start>0</start>
+        <mode>bomb</mode>
+        <score-target>500</score-target>
+        <solution-target>5</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+
+</levels>
+
+    <!--
+        SET:
+             0 - ALL
+             1 - NO ORIZONATAL
+             2 - NO VERTICAL
+             3 - NO DIAGONAL
+     -->
+
+

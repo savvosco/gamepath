@@ -1,0 +1,201 @@
+<levels>
+    <level>
+        <id>0</id>
+        <name>NO LEVEL GAME</name>
+        <description>No constraints, no level games, no time
+        </description>
+        <set>0</set>
+        <timer>0</timer>
+        <score-target>20000</score-target>
+        <solution-target>100</solution-target>
+        <lifes>99</lifes>
+    </level>
+    <level>
+        <id>1</id>
+        <name>Level 1</name>
+        <description>Trova 5 percorsi in un minuto unendo tutti i punti della griglia!</description>
+        <set>0</set>
+        <mode>intersection</mode>
+        <score-target>500</score-target>
+        <solution-target>5</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>2</id>
+        <name>Level 2</name>
+        <description>Trova 10 percorsi in un minuto unendo tutti i punti della griglia!
+        </description>
+        <set>0</set>
+        <mode>intersection</mode>
+        <score-target>1000</score-target>
+        <solution-target>10</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>3</id>
+        <name>Level 3</name>
+        <description> Trova 5 soluzioni in un minuto partendo dal punto 1
+        </description>
+        <set>0</set>
+        <score-target>500</score-target>
+        <solution-target>5</solution-target>
+        <start>0</start>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>4</id>
+        <name>Level 4</name>
+        <description>Trova 5 soluzioni in un minuto unendo tutti i punti della griglia, senza andare in diagonale!
+        </description>
+        <set>3</set>
+        <score-target>500</score-target>
+        <solution-target>5</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>5</id>
+        <name>Level 5</name>
+        <description>Trova 5 soluzioni in un minuto partendo dal punto 1 senza andare in diagonale </description>
+        <set>3</set>
+        <start>0</start>
+        <score-target>1000</score-target>
+        <solution-target>5</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>6</id>
+        <name>Level 6</name>
+        <description>Trova tutte le soluzioni che puoi in un minuto partendo  dal punto 1 e terminando al punto 8</description>
+        <set>0</set>
+        <start>0</start>
+        <end>7</end>
+        <score-target>1000</score-target>
+        <solution-target>100</solution-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>7</id>
+        <name>Level 7</name>
+        <description>Trova 10 soluzioni in un minuto partendo  dal punto 3 e terminando al punto 10</description>
+        <set>0</set>
+        <start>2</start>
+        <end>9</end>
+        <solution-target>10</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>8</id>
+        <name>Level 8</name>
+        <description>Trova 10 soluzioni in un minuto partendo  dal punto 1 e terminando al punto 16, senza andare in diagonale
+        </description>
+        <set>3</set>
+        <start>0</start>
+        <end>15</end>
+        <solution-target>10</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>9</id>
+        <name>Level 9</name>
+        <description>Trova 5 soluzioni in un minuto unendo i punti della griglia senza passare dal punto 7!</description>
+        <not>6</not>
+        <set>0</set>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>121</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>10</id>
+        <name>Level 10</name>
+        <description>Trova 5 soluzioni in un minuto unendo i punti della griglia iniziando dal punto 1 e senza passare dal punto 5!</description>
+        <start>5</start>
+        <not>6</not>
+        <set>0</set>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>11</id>
+        <name>Level 11</name>
+        <description>Trova 5 soluzioni in un minuto unendo i punti della griglia partendo dal punto 1 e finendo al punto 16, senza passare dal punto 8!</description>
+        <not>6</not>
+        <start>0</start>
+        <end>15</end>
+        <set>0</set>
+        <solution-target>5</solution-target>
+        <score-target>10000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>12</id>
+        <name>Level 12</name>
+        <description>In un punto nella terza colonna c'è una bomba. In un minuto, dovresti trovare i percorsi che uniscono tutti i punti della griglia tranne quello in cui c'è la bomba. Come suggerimento, troverai in basso a sinistra un numero D che indica la somma delle linee orizzontali e verticali di distanza dalla bomba. Più ti avvicini alla bomba, più questo numero diminuisce! </description>
+        <not>7</not>
+        <set>3</set>
+        <solution-target>100</solution-target>
+        <score-target>1000</score-target>
+        <timer>61</timer>
+        <lifes>5</lifes>
+    </level>
+    <level>
+        <id>13</id>
+        <name>Level 13</name>
+        <description>In un punto nella seconda colonna c'è una bomba. In un minuto, dovresti trovare i percorsi che uniscono tutti i punti della griglia tranne quello in cui c'è la bomba. Ricorda, devi partire dal punto 1. Come suggerimento, troverai in basso a sinistra un numero D che indica la somma delle linee orizzontali e verticali di distanza dalla bomba. Più ti avvicini alla bomba, più questo numero diminuisce! </description>
+        <not>6</not>
+        <solution-target>100</solution-target>
+        <score-target>1000</score-target>
+        <set>3</set>
+    </level>
+    <level>
+        <id>14</id>
+        <name>Level 14</name>
+        <description>In un punto nella seconda riga c'è una bomba. In un minuto, dovresti trovare i percorsi che uniscono tutti i punti della griglia tranne quello in cui c'è la bomba. Come suggerimento, troverai in basso a sinistra un numero D che indica la somma delle linee orizzontali e verticali di distanza dalla bomba. Più ti avvicini alla bomba, più questo numero diminuisce! </description>
+        <not>6</not>
+        <solution-target>100</solution-target>
+        <score-target>1000</score-target>
+        <set>3</set>
+    </level>
+
+    <level>
+        <id>14</id>
+        <name>Level 14</name>
+        <description>In un punto nella seconda colonna c'è una bomba. Ad ogni soluzione che trovi, il punto dove sarà la bomba cambierà, ma resterà sempre un punto della seconda colonna! Come suggerimento, troverai in basso a sinistra un numero D che indica la somma delle linee orizzontali e verticali di distanza dalla bomba. Più ti avvicini alla bomba, più questo numero diminuisce! </description>
+        <not>6</not>
+        <solution-target>100</solution-target>
+        <score-target>1000</score-target>
+        <set>3</set>
+    </level>
+
+    <level>
+        <id>15</id>
+        <name>Level 15</name>
+        <description>Nella griglia c'è una bomba! Dovresti trovare, in un minuto tutti i percorsi che non passano dalla bomba, senza andare in diagonale. Come suggerimento, troverai in basso a sinistra un numero D che indica la somma delle linee orizzontali e verticali di distanza dalla bomba. Più ti avvicini alla bomba, più questo numero diminuisce! </description>
+        <not>6</not>
+        <set>3</set>
+    </level>
+
+
+</levels>
+
+    <!--
+        SET:
+             0 - ALL
+             1 - NO ORIZONATAL
+             2 - NO VERTICAL
+             3 - NO DIAGONAL
+     -->
+

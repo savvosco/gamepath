@@ -1,0 +1,100 @@
+
+
+        /*
+          *
+          * NO DIAGONAL EDGES: 48
+          *
+          * Matrix 4x4 - START
+          *
+          *
+          * */
+
+         //adjacency list for vertex 0
+        adjLists.get(0).add(1);
+        adjLists.get(0).add(4);
+
+         //adjacency list for vertex 1
+        adjLists.get(1).add(0);
+        adjLists.get(1).add(2);
+        adjLists.get(1).add(5);
+
+         //adjacency list for vertex 2
+        adjLists.get(2).add(1);
+        adjLists.get(2).add(3);
+        adjLists.get(2).add(6);
+
+         //adjacency list for vertex 3
+        adjLists.get(3).add(2);
+        adjLists.get(3).add(7);
+
+         //adjacency list for vertex 4
+        adjLists.get(4).add(0);
+        adjLists.get(4).add(5);
+        adjLists.get(4).add(8);
+
+         //adjacency list for vertex 5
+        adjLists.get(5).add(1);
+        adjLists.get(5).add(4);
+        adjLists.get(5).add(6);
+        adjLists.get(5).add(9);
+
+
+         //adjacency list for vertex 6
+        adjLists.get(6).add(2);
+        adjLists.get(6).add(5);
+        adjLists.get(6).add(7);
+        adjLists.get(6).add(10);
+
+         //adjacency list for vertex 7
+        adjLists.get(7).add(3);
+        adjLists.get(7).add(6);
+        adjLists.get(7).add(11);
+
+         //adjacency list for vertex 8
+        adjLists.get(8).add(4);
+        adjLists.get(8).add(9);
+        adjLists.get(8).add(12);
+
+         //adjacency list for vertex 9
+        adjLists.get(9).add(5);
+        adjLists.get(9).add(8);
+        adjLists.get(9).add(10);
+        adjLists.get(9).add(13);
+
+
+         //adjacency list for vertex 10
+        adjLists.get(10).add(6);
+        adjLists.get(10).add(9);
+        adjLists.get(10).add(11);
+        adjLists.get(10).add(14);
+
+
+         //adjacency list for vertex 11
+        adjLists.get(11).add(7);
+        adjLists.get(11).add(10);
+        adjLists.get(11).add(15);
+
+         //adjacency list for vertex 12
+        adjLists.get(12).add(8);
+        adjLists.get(12).add(13);
+
+         //adjacency list for vertex 13
+        adjLists.get(13).add(9);
+        adjLists.get(13).add(12);
+        adjLists.get(13).add(14);
+
+         //adjacency list for vertex 14
+        adjLists.get(14).add(10);
+        adjLists.get(14).add(13);
+        adjLists.get(14).add(15);
+
+         //adjacency list for vertex 15
+        adjLists.get(15).add(11);
+        adjLists.get(15).add(14);
+
+
+        /*
+        *
+        * Matrix 4x4 - END
+        *
+        * */

@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:patternview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBalck"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorYellow"
+        android:text="SCORE:"
+        android:id="@+id/scoreFieldText"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/scoreFieldText"
+        android:textColor="@color/colorYellow"
+        android:text="0"
+        android:id="@+id/scoreText"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <com.eftimoff.patternview.PatternView
+        android:id="@+id/patternView"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_centerInParent="true"
+        patternview:gridColumns="4"
+        patternview:gridRows="4" />
+<!--
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_alignBottom="@+id/timerText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+-->
+    <!-- TIMER -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/startButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorYellow"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/timerText"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textlifeCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIFE:"
+        android:textSize="20sp"
+        android:textColor="@color/colorRed"
+        android:layout_marginRight="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_alignBaseline="@+id/timerText"
+        android:layout_alignBottom="@+id/timerText"
+        android:layout_toLeftOf="@+id/lifeCount"
+        android:layout_toStartOf="@+id/lifeCount" />
+
+    <TextView
+        android:id="@+id/lifeCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorRed"
+        android:textSize="20sp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:text=""
+        android:layout_alignBaseline="@+id/textlifeCount"
+        android:layout_alignBottom="@+id/textlifeCount"
+        android:layout_alignRight="@+id/patternView"
+        android:layout_alignEnd="@+id/patternView" />
+
+    <TextView
+        android:id="@+id/countSolutionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorYellow"
+        android:textSize="25dp"
+        android:text="0" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bomb_red"
+        android:id="@+id/iconBomb"
+        android:minHeight="30px"
+        android:minWidth="30px"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bonus"
+        android:id="@+id/iconBonus"
+        android:minHeight="30px"
+        android:minWidth="30px"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>
