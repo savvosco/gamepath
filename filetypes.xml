@@ -1,0 +1,31 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="edgeStatAll" type="Native" />
+      <mapping pattern="edgesAll" type="PLAIN_TEXT" />
+      <mapping pattern="sol3" type="PLAIN_TEXT" />
+      <mapping pattern="sol1" type="PLAIN_TEXT" />
+      <mapping pattern="solutionNoVertical" type="PLAIN_TEXT" />
+      <mapping pattern="edgeStat" type="PLAIN_TEXT" />
+      <mapping pattern="solutionNoOrizontal" type="PLAIN_TEXT" />
+      <mapping pattern="edgeNoVertical" type="PLAIN_TEXT" />
+      <mapping pattern="edgesNoDiagonal" type="PLAIN_TEXT" />
+      <mapping pattern="solutions3x3" type="PLAIN_TEXT" />
+      <mapping pattern="solutions4x4" type="PLAIN_TEXT" />
+      <mapping pattern="edgeNoOrizontal" type="PLAIN_TEXT" />
+      <mapping pattern="noDiagonal" type="PLAIN_TEXT" />
+      <mapping pattern="TODO" type="PLAIN_TEXT" />
+      <mapping pattern="noVertical" type="PLAIN_TEXT" />
+      <mapping pattern="edgeAll" type="PLAIN_TEXT" />
+      <mapping pattern="solutions" type="PLAIN_TEXT" />
+      <mapping pattern="noOrizontal" type="PLAIN_TEXT" />
+      <mapping pattern="solTEST" type="PLAIN_TEXT" />
+      <mapping pattern="solutionAll" type="PLAIN_TEXT" />
+      <mapping pattern="edgesNoOrizontal" type="PLAIN_TEXT" />
+      <mapping pattern="solutions-settings-1" type="PLAIN_TEXT" />
+      <mapping pattern="solutionNoDiagonal" type="PLAIN_TEXT" />
+      <mapping ext="mp3" type="PLAIN_TEXT" />
+      <mapping pattern="solutions-settings" type="Properties" />
+    </extensionMap>
+  </component>
+</application>
