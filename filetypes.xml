@@ -21,6 +21,7 @@
       <mapping pattern="noOrizontal" type="PLAIN_TEXT" />
       <mapping pattern="solTEST" type="PLAIN_TEXT" />
       <mapping pattern="solutionAll" type="PLAIN_TEXT" />
+      <mapping pattern="edgesAll-to-remove-ssss" type="PLAIN_TEXT" />
       <mapping pattern="edgesNoOrizontal" type="PLAIN_TEXT" />
       <mapping pattern="solutions-settings-1" type="PLAIN_TEXT" />
       <mapping pattern="solutionNoDiagonal" type="PLAIN_TEXT" />
